@@ -1,0 +1,49 @@
+:root {
+    /* Cores principais */
+    --cor-primaria: #5d04d9;
+    --cor-secundaria: #03318c;
+
+    /* Cores de fundo */
+    --cor-fundo-principal:#ffffff;
+    --cor-fundo-secundaria:#03318c;
+
+    /* Cores dos textos */
+    --cor-texto-titulos:#000000;
+    --cor-texto-claro:#ffffff;
+    --cor-texto-escuro:#03318c;
+
+    /* Espaçamentos */
+    --espacamento-pequeno: 0.5rem;
+    --espacamento-medio: 1rem;
+    --espacamento-grande: 2rem;
+
+    /* Tipografia */
+    --fonte-principal: "Roboto", sans-serif ;
+    --fonte-peso-normal: 400;
+    --fonte-peso-bold: 700;
+
+    /* Tamanhos de fonte */
+    --fonte-tamanho-base: 16px;
+    --fonte-titulo: 2rem;
+    --fonte-texto: 1rem;
+    --fonte-pequena: 0.875rem;
+
+}
+
+body {
+    background-color: var(--cor-fundo-principal);
+    font-family: var(--fonte-principal);
+    font-style: normal;
+    font-size: var(--fonte-tamanho-base);
+    color: var(--cor-texto-escuro);
+    font-weight: var(--fonte-peso-normal);
+}
+
+/* Cabeçalho */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-primaria);
+    padding: 1rem 0 1rem 0;
+}
