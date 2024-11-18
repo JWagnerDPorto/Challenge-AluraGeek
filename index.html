@@ -10,16 +10,48 @@
     <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
     <!-- Titulo -->
     <title>Alura Geek</title>
 </head>
 <body>
+    <!-- Cabeçalho -->
     <header class="header">
         <div class="header__logo">
+            <h1 class="header__title">Alura Geek</h1>
             <img class="header__logo-img" src="./assets/Logo.svg" alt="Logo da Alura Geek">
         </div>
     </header>
+    <!-- Conteúdo Principal -->
+    <main class="main-content">
+
+        <!-- Sessão Lista de Produtos -->
+        <section class="products">
+            <h2 class="products__title">Meus Produtos:</h2>
+
+        </section>
+
+        <!-- Formulário para adicionar ou remover produtos-->
+        <form class="form">
+            <fieldset class="form__fieldset">
+                <h3 class="form__title">Adicionar Produtos:</h3>
+
+                <label class="form__label" for="nome">Nome:</label>
+                <input class="form__input" type="text" id="nome" name="nome" placeholder="Digite o nome do produto aqui..." required>
+
+                <label class="form__label" for="valor">Valor:</label>
+                <input class="form__input" type="number" id="valor" name="valor" placeholder="Digite o valor aqui...." required>
+
+                <label class="form__label" for="imagem">Imagem:</label>
+                <input class="form__input" type="url" id="imagem" name="imagem" placeholder="URL da imagem..." required>
+
+                <button class="button button--primary" type="submit">Guardar</button>
+                <button class="button button--secondary" type="reset">Limpar</button>
+            </fieldset>
+            
+        </form>
+
+    </main>
     
 </body>
 </html>

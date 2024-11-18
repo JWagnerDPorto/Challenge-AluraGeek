@@ -18,7 +18,7 @@
     --espacamento-grande: 2rem;
 
     /* Tipografia */
-    --fonte-principal: "Roboto", sans-serif ;
+    --fonte-principal: "Pixelify Sans", serif ;
     --fonte-peso-normal: 400;
     --fonte-peso-bold: 700;
 
@@ -45,5 +45,30 @@ body {
     justify-content: center;
     align-items: center;
     background-color: var(--cor-primaria);
-    padding: 1rem 0 1rem 0;
+    height: 10vh;
 }
+
+/* Conteúdo Principal */
+.main-content {
+    background-color: var(--cor-fundo-principal);
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 2rem;
+    height: 80vh;
+}
+
+/* Sessão Lista de Produtos */
+.products {
+    background-color: var(--cor-fundo-principal);
+    width: 60%;
+    margin: 2rem;
+}
+
+
+ /* Formulário para adicionar ou remover produtos */
+ .form {
+    background-color: var(--cor-fundo-principal);
+    width: 35%;
+    margin: 2rem;
+ }
